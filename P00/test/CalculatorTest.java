@@ -57,13 +57,13 @@ public class CalculatorTest {
 		assertEquals(actual,expected);
 	}
 	public void testDivide() {
-		int a = 1000;
+		int a = 2000;
 		int b = 2;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		
-		int expected = 500;
+		int expected = 1000;
 		assertEquals(actual,expected);
 	}
 }

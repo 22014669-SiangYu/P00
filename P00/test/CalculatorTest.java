@@ -56,7 +56,7 @@ public class CalculatorTest {
 		int expected = 2000;
 		assertEquals(actual,expected);
 	}
-	public void testDivide() {
+	public void testDivide() {//nnn
 		int a = 2000;
 		int b = 2;
 		
